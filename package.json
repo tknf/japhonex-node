@@ -1,0 +1,45 @@
+{
+  "name": "@tknf/japhonex",
+  "version": "0.1.2",
+  "description": "Regex builder and validator for japanese phone number",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "TKNF LLC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tknf/japhonex-node",
+    "directory": "packages/node"
+  },
+  "bugs": {
+    "url": "https://github.com/tknf/japhonex-node/issues"
+  },
+  "homepage": "https://github.com/tknf/japhonex-node/README.md",
+  "engines": {
+    "node": ">=12.14.0"
+  },
+  "main": "build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/"
+  ],
+  "prettier": "@tknf/prettier-config",
+  "scripts": {
+    "test": "jest --env node --verbose",
+    "build": "tsc -p ./tsconfig.build.json"
+  },
+  "devDependencies": {
+    "@tknf/eslint-config-typescript": "^1.0.6",
+    "@tknf/prettier-config": "^1.0.6",
+    "@types/jest": "^27.4.1",
+    "eslint": "^8.11.0",
+    "jest": "^27.5.1",
+    "lerna": "^4.0.0",
+    "prettier": "^2.5.1",
+    "ts-jest": "^27.1.3",
+    "turbo": "^1.1.6",
+    "typescript": "^4.6.2"
+  }
+}

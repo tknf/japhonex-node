@@ -1,0 +1,9 @@
+{
+  "extends": ["@tknf/eslint-config-typescript"],
+  "parserOptions": {
+    "project": "./tsconfig.eslint.json"
+  },
+  "rules": {
+    "no-undef": "off"
+  }
+}
